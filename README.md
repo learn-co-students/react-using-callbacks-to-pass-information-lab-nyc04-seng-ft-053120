@@ -88,6 +88,7 @@ export default class Matrix extends Component {
   }
 
   genRow = (vals) => (
+    console.log(vals)
     vals.map((val, idx) => <Cell key={idx} color={val} />)
   )
 
